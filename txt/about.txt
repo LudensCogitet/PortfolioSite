@@ -1,0 +1,9 @@
+<p>A self-taught programmer turning a life-long hobby into a career, I'm familiar with <b>HTML5</b>, <b>CSS</b>, <b>JavaScript/jQuery</b>, <b>PHP</b>, and <b>Python</b>, and I'm always up for learning new frameworks and tackling new challenges.</p>
+
+<p>I've done landscaping, carpentry, literary criticism, and games journalism, but solving problems and building solutions in code absorbs me like hardly anything else can. My focus is on designing and implementing all sorts of applications accessed through a browser -- anything from educational tools for teaching reading to database front and back ends -- and I put a premium on elegance and ease of use.</p>
+
+<p>Additionally, having been a writer, as well as engaging in and leading literary seminars for many years, I'm an experienced communicator and a good listener; skills that cannot be underestimated when it comes to working with a team and clarifying project requirements.</p>
+
+<p>Below you'll find descriptions of some of the things I've built. You'll also find <b>links to live demonstrations of the apps</b>, as well as various GitHub repositories where you can <b>take a look at the source</b>.</p>
+
+<p>If you're looking to <b>get in touch</b>, you can e-mail me at <a href='mailto: JohnHinerIII@protonmail.com'>JohnHinerIII@protonmail.com</a> or find me through various means listed in the Contact section.</p>
