@@ -46,7 +46,7 @@ function setViewScreenTop(element){
 function loadScreens(){
 		$.ajax(
 				 {method: "POST",
-					url: "getScreens.php",
+					url: "../php/getScreens.php",
 					error: function(){$('body').append($('<h1>Sorry about this, but something\'s gone wrong.</h1>'));},
 					success: function(result){
 						console.log(result);

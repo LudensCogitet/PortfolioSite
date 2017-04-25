@@ -1,6 +1,6 @@
 <?php
 	if($_SERVER['REQUEST_METHOD'] == 'POST'){
-		$screens = json_decode(file_get_contents('./screens.json'))->screens;
+		$screens = json_decode(file_get_contents('../data/screens.json'))->screens;
 		
 		$returnObj = ["menu" => "",
 									"screens" => 				[]];
@@ -11,7 +11,7 @@
 		
 		for($i = 0; $i < $numScreens; $i++){
 			if(array_key_exists("START",$screens[$i])){
-				$returnObj["menu"] .= "<li class='category'>".$screens[$i]->START."<span class='arrow right'><img src='img/rightArrow.png'></span><span class='arrow down' style='display: none;'><img src='img/downArrow.png'></span><ul class='navMenu submenu'>";
+				$returnObj["menu"] .= "<li class='category'>".$screens[$i]->START."<span class='arrow right'><img src='data/img/rightArrow.png'></span><span class='arrow down' style='display: none;'><img src='data/img/downArrow.png'></span><ul class='navMenu submenu'>";
 			}
 			else if(array_key_exists("END",$screens[$i])){
 				$returnObj["menu"] .= "</ul></li>";
@@ -53,11 +53,11 @@
 				}
 				
 				if(array_key_exists('sourceCodeLink',$screens[$i])){
-					$sourceCodeLink = "<div class='infoLink'><a title='See the source on GitHub' target='_blank' href='".$screens[$i]->sourceCodeLink."'><div><img src='img/GitHub-Mark-64px.png'><div>GitHub</div></div></a></div>";
+					$sourceCodeLink = "<div class='infoLink'><a title='See the source on GitHub' target='_blank' href='".$screens[$i]->sourceCodeLink."'><div><img src='data/img/GitHub-Mark-64px.png'><div>GitHub</div></div></a></div>";
 				}
 				
 				if(array_key_exists('liveDemoLink',$screens[$i])){
-					$liveDemoLink = "<div class='infoLink'><a title='Check out the app in action' target='_blank' href='".$screens[$i]->liveDemoLink."'><div><img src='img/bigPlay.png'><div>Demo</div></div></a></div>";
+					$liveDemoLink = "<div class='infoLink'><a title='Check out the app in action' target='_blank' href='".$screens[$i]->liveDemoLink."'><div><img src='data/img/bigPlay.png'><div>Demo</div></div></a></div>";
 				}
 				
 				$newScreen = "<div id=".$d." class='".$classes."'>".

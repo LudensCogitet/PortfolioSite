@@ -2,8 +2,8 @@
 	"screens":[{"name":					"About",
 							"heading": 			"John Hiner",
 							"subheading": 	"Full Stack Web Developer",
-							"image":				"img/headShot.jpg",
-							"text":					"txt/about.txt"
+							"image":				"../data/img/headShot.jpg",
+							"text":					"../data/txt/about.txt"
 							},
 							{"START":				"Projects"},
 							{"name":				"Database",
@@ -11,14 +11,14 @@
 							 "sourceCodeLink":"https://github.com/LudensCogitet/JCDB",
 							 "heading": 		"Projects",
 							 "subheading": 	"Custom Database",
-							 "image":				"img/rightArrow.png",
-							 "text":				"txt/about.txt"
+							 "image":				"../data/img/rightArrow.png",
+							 "text":				"../data/txt/about.txt"
 							},
 							{"END":					"Projects"},
 							{"name":				"Contact",
 							 "heading": 		"Contact",
 							 "subheading": 	"Let's talk!",
-							 "image":				"img/rightArrow.png",
-							 "text":				"txt/about.txt"
+							 "image":				"../data/img/rightArrow.png",
+							 "text":				"../data/txt/about.txt"
 							}]
 }
