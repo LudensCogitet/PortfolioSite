@@ -57,6 +57,7 @@
 #menuButton{
 	display: none;
 	background-color: lightgreen;
+	cursor: pointer;
 }
 
 @media (max-width: 1000px){
