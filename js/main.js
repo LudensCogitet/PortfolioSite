@@ -173,17 +173,15 @@ function introAnim(){
 	console.log(currentScreen);
 	background.play(function(){
 		if(currentScreen != null){
-			currentScreen.css('display','block');
+			$menu = $(window).width() > 1000 ? $('#main.navMenu') : $('#menuButton');
+			
+			$menu.show();
+			currentScreen.show();
 			currentScreen.css(setViewScreenTop($('.firstScreen')));
 			background.play(function(){
 				currentScreen.css('z-index',0);
+				$('#navSpace').css('z-index',1000);
 				background.play(function(){
-					if($(window).width() > 1000){
-						$('#main.navMenu').fadeIn(800);
-					}
-					else{
-						$('#menuButton').fadeIn(800);
-					}
 					background.fadeOut(background.remove);
 				},'in');
 			},'outUp');
