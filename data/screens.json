@@ -11,8 +11,16 @@
 							 "sourceCodeLink":"https://github.com/LudensCogitet/JCDB",
 							 "heading": 		"Projects",
 							 "subheading": 	"Custom Database",
-							 "image":				"../data/img/rightArrow.png",
+							 "image":				"../data/img/database.jpg",
 							 "text":				"../data/txt/about.txt"
+							},
+							{"name":				"This Site",
+							 "liveDemoLink":"#",
+							 "sourceCodeLink":"https://github.com/LudensCogitet/PortfolioSite",
+							 "heading": 		"Projects",
+							 "subheading": 	"This Very Portfolio",
+							 "image":				"../data/img/PortfolioSite.jpg",
+							 "text":				"../data/txt/PortfolioSite.txt"
 							},
 							{"END":					"Projects"},
 							{"name":				"Contact",

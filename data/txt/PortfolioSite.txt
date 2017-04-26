@@ -1,0 +1,5 @@
+<p>I built this portfolio site from "scratch" (to the extent that that's true of anything in web development) with the help of the very handy <a href="https://html5boilerplate.com">HTML5 Boilerplate</a>, plus jQuery for DOM manipulation, animations, and a single AJAX request.</p>
+
+<p>That AJAX request is sent to a PHP script I wrote to process a JSON file. The menu and slides here are generated at runtime from a few resources, making it easier and cleaner to add more later.</p>
+
+<p>When looking at the source code, check out "data/screens.json" and "php/getScreens.php" in particular. As well as the loadScreens function in "js/main.js". That's where the most fun stuff happens.

@@ -57,7 +57,6 @@ function loadScreens(){
 					success: function(result){
 						console.log(result);
 						result = JSON.parse(result);
-						console.log(result);
 						
 						$('#main.navMenu').append(result.menu);
 						
