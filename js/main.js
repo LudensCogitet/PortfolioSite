@@ -36,7 +36,13 @@ function zoomIn(e){
 
 function setViewScreenTop(element){
 	if(element.height() > $(window).height()){
-		return	{top: 30};
+		let $menuButton = $("#menuButton");
+		if($menuButton.is(":hidden")){
+			return	{top: $("#main.navMenu").height()};
+		}
+		else{
+			return {top: $menuButton.height()};
+		}
 	}
 	else{
 		return {top: $(window).height()/2 -element.height()/2};
