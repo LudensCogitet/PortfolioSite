@@ -78,5 +78,11 @@
 	
 	.navMenu li{
 		display: block;
+		font-size: 35px;
 	}
+	
+	.arrow img{
+	width: 35px;
+	height: 35px;
+}
 }

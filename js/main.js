@@ -35,17 +35,17 @@ function zoomIn(e){
 }
 
 function setViewScreenTop(element){
-	if(element.height() > $(window).height()){
-		let $menuButton = $("#menuButton");
-		if($menuButton.is(":hidden")){
-			return	{top: $("#main.navMenu").height()};
-		}
-		else{
-			return {top: $menuButton.height()};
-		}
+	var elHeight = element.height();
+	var winHeight = $(window).height();
+	
+	var menuHeight = $("#menuButton").is(":hidden") ? $("#main.navMenu").height() :  $("#menuButton").height();
+	var centered = (winHeight/2) - (elHeight/2);
+	
+	if(centered < menuHeight){
+		return	{top: menuHeight};
 	}
 	else{
-		return {top: $(window).height()/2 -element.height()/2};
+		return {top: centered};
 	}
 }
 
