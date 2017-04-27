@@ -31,15 +31,32 @@
 </script>
 
 <style>
+  .socialLink{
+    width: 64px;
+    height: 64px;
+    margin-right: 10px;
+  }
+
+  #contactForm{
+    margin-top: 10px;
+  }
+
   #contactForm input, #contactForm textarea{
 		width: 300px;
-	}
+  }
 	
-	#contactForm textarea{
-		height: 200px;
-	}
+  #contactForm textarea{
+    width: 100%;
+    height: 200px;
+  }
 </style>
+<p>If you like what you see and you'd like to get in touch about potentially working together, or if you just want to chat about web development, ask for advice, or offer constructive criticism, you can e-mail me at <a target="_blank" href="mailto: johnhineriii@protonmail.com">johnhineriii@protonmail.com</a></p>
+<p>You can also find me on social media by clicking on those little logos, or write something in the boxes and it should make its way to me accross the internet.</p>
 
+<a href="https://www.facebook.com/john.hineriii"><img class="socialLink" src="data\img\FB-f-Logo__blue_72.png"></a>
+<a href="https://twitter.com/johnvspop"><img class="socialLink" src="data\img\Twitter_Logo_White_On_Blue.png"></a>
+<a href="https://github.com/LudensCogitet"><img class="socialLink" src="data\img\GitHub-Mark-64px.png"></a>
+<div style="background-color: white; display: inline-block; width: 64px;"><a href="https://stackoverflow.com/users/story/7451218"><img class="socialLink" src="data\img\so-icon.png"></a></div>
 <div id="contactForm">
   <div>
     <div>E-mail</div>
@@ -53,5 +70,5 @@
    <div>Text</div>
 	 <textarea id="text"></textarea>
   </div>
-  <div><button id="send">Send</button></div>
+  <div class="wrapper"><button id="send">Send</button></div>
 </div>

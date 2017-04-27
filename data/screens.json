@@ -26,7 +26,7 @@
 							{"name":				"Contact",
 							 "heading": 		"Contact",
 							 "subheading": 	"Let's talk!",
-							 "image":				"../data/img/rightArrow.png",
+							 "image":				"../data/img/blue-email-hi.png",
 							 "text":				"../data/txt/contact.txt"
 							}]
 }

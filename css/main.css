@@ -196,7 +196,7 @@ body{
 .pic{
 	max-width: 40%;
 	float: right;
-	margin: 10px -3px -3px 10px;
+	margin: 10px 10px 5px 10px;
 }
 
 .infoLink{
