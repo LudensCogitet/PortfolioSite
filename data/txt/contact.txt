@@ -56,7 +56,7 @@
 <a target="_blank" href="https://www.facebook.com/john.hineriii"><img class="socialLink" src="data\img\FB-f-Logo__blue_72.png"></a>
 <a target="_blank" href="https://twitter.com/johnvspop"><img class="socialLink" src="data\img\Twitter_Logo_White_On_Blue.png"></a>
 <a target="_blank" href="https://github.com/LudensCogitet"><img class="socialLink" src="data\img\GitHub-Mark-64px.png"></a>
-<div style="background-color: white; display: inline-block; width: 64px;"><a target="_blank" href="https://stackoverflow.com/users/story/7451218"><img class="socialLink" src="data\img\so-icon.png"></a></div>
+<div style="background-color: white; display: inline-block; width: 64px;"><a target="_blank" href="https://stackoverflow.com/users/7451218/john-hiner?tab=profile"><img class="socialLink" src="data\img\so-icon.png"></a></div>
 <div id="contactForm">
   <div>
     <div>E-mail</div>
