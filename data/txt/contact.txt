@@ -1,0 +1,57 @@
+<script>
+  $(document).ready(function(){
+    $("#contactForm #send").click(function(){
+			var $replyTo = $("#contactForm #replyTo");
+			var $subject = $("#contactForm #subject");
+			var $text		 = $("#contactForm #text");
+			
+			if($replyTo.val() == "" || $subject.val() == "" || $text.val() == "")
+				alert("Please fill in all three fields.");
+			else{
+				$.ajax(
+					 {method: "POST",
+						url: "php/emailSend.php",
+						data: {replyTo:	$replyTo.val(),
+									 subject:	$subject.val(),
+									 text:		$text.val()},
+						error: function(){alert("Sorry about this, but something's gone wrong");},
+						success: function(result){
+							console.log(result);
+							if(result == "bad email")
+								alert("Please enter a valid e-mail address.");
+							else if(result == "failure")
+								alert("I'm sorry, the e-mail could not be sent.");
+							else
+								alert("Thanks for dropping me a line!");
+						}
+					});
+				}
+			});
+});
+</script>
+
+<style>
+  #contactForm input, #contactForm textarea{
+		width: 300px;
+	}
+	
+	#contactForm textarea{
+		height: 200px;
+	}
+</style>
+
+<div id="contactForm">
+  <div>
+    <div>E-mail</div>
+		<input id="replyTo" type="text"></input>
+  </div>
+  <div>
+    <div>Subject</div>
+		<input id="subject" type="text"></input>
+  </div>
+  <div>
+   <div>Text</div>
+	 <textarea id="text"></textarea>
+  </div>
+  <div><button id="send">Send</button></div>
+</div>

@@ -19,14 +19,14 @@
 							 "sourceCodeLink":"https://github.com/LudensCogitet/PortfolioSite",
 							 "heading": 		"Projects",
 							 "subheading": 	"This Very Portfolio",
-							 "image":				"../data/img/PortfolioSite.jpg",
-							 "text":				"../data/txt/PortfolioSite.txt"
+							 "image":				"../data/img/portfolioSite.jpg",
+							 "text":				"../data/txt/portfolioSite.txt"
 							},
 							{"END":					"Projects"},
 							{"name":				"Contact",
 							 "heading": 		"Contact",
 							 "subheading": 	"Let's talk!",
 							 "image":				"../data/img/rightArrow.png",
-							 "text":				"../data/txt/about.txt"
+							 "text":				"../data/txt/contact.txt"
 							}]
 }
