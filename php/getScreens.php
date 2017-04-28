@@ -66,7 +66,7 @@
 													"<div class='heading'>".
 														"<div style='display: inline-block; float: left; width: 60%; margin: 0;'>".
 															"<h1>".$screens[$i]->heading."</h1>".
-															"<h3 class='dark'>".$screens[$i]->subheading."</h3>".
+															"<h3 class='darker'>".$screens[$i]->subheading."</h3>".
 														"</div>".
 														"<div style='display: inline-block; float: right; width: 40%; margin: 0;'>".
 															$sourceCodeLink.

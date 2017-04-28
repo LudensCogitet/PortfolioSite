@@ -127,7 +127,7 @@ function loadScreens(){
 				 });
 }
 
-var background = new BackgroundAnimation('#00ace6',500,50);
+var background = new BackgroundAnimation('#558c89',500,50);
 var currentScreen = null;
 
 function moveToScreen(targets){

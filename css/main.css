@@ -125,9 +125,10 @@ body{
 .content{
 	font-size: 14pt;
 	margin: 0 auto;
-	border-top: 3px solid black;
-	border-bottom: 3px solid black;
-	box-shadow: 10px 10px 5px black;
+	border-radius: 3px 3px 3px 3px;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	box-shadow: 5px 5px 5px black;
 }
 
 .heading{
@@ -146,24 +147,25 @@ body{
 	width: 200px;
 	font-size: 18pt;
 	cursor: pointer;
-	background-color: lightgreen;
-	box-shadow: 10px 10px 5px black;
-	border: 3px solid black;
+	background-color: #d9853b;
+	box-shadow: 5px 5px 5px black;
+	border: 2px solid black;
 }
 
 .button:hover{
-	background-color: green;
-	color:white;
+	background-color: #ececea;
+	border-color: white;
+	font-weight: bold;
 }
 
 .nextButton{
-	border-radius: 0px 0px 10px 10px;
+	border-radius: 0px 0px 20px 20px;
 	border-top: 0;
 	/*bottom: -14px;*/
 }
 
 .prevButton{
-	border-radius: 10px 10px 0px 0px;
+	border-radius: 20px 20px 0px 0px;
 	border-bottom: 0;
 	/*top: -33px;*/
 }
@@ -174,18 +176,19 @@ body{
 
 .heading h3{
 	margin: 10px 0px 10px 10px;
+	color: white;
 }
 
 .darker{
-	background-color: #00ace6;
+	background-color: #558c89;
 }
 
 .dark{
-  background-color: #80dfff;
+  background-color: #74afad;
 }
 
 .light{
-  background-color: #99e6ff;
+  background-color: #ececea;
 }
 
 .enlarge{
@@ -235,8 +238,8 @@ body{
 	}
 	
 	.content{
-		border-left: 3px solid black;
-		border-right: 3px solid black;
+		border-left: 2px solid black;
+		border-right: 2px solid black;
 	}
 }
 

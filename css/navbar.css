@@ -26,7 +26,7 @@
 	cursor: pointer;
 	display: inline-block;
 	min-width: 160px;
-	background-color: lightgreen;
+	background-color: #d9853b;
 	color: black;
 }
 
@@ -45,8 +45,7 @@
 }
 
 .navMenu li.active, .navMenu li:hover{
-	color: white;
-	background-color: green;
+	background-color: #ececea;
 }
 
 .arrow img{
@@ -57,7 +56,7 @@
 #menuButton{
 	display: none;
 	font-size: 35px;
-	background-color: lightgreen;
+	background-color: #d9853b;
 	cursor: pointer;
 }
 
