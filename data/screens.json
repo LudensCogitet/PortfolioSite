@@ -7,7 +7,7 @@
 							},
 							{"START":				"Projects"},
 							{"name":				"Database",
-							 "liveDemoLink":"#",
+							 "liveDemoLink":"../Projects/JCDB",
 							 "sourceCodeLink":"https://github.com/LudensCogitet/JCDB",
 							 "heading": 		"Projects",
 							 "subheading": 	"Custom Database",
