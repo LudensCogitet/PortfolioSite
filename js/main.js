@@ -195,7 +195,7 @@ function introAnim(){
 
 $(document).ready(function(){
 	background.setup('fromBottom');
-	setTimeout(function(){introAnim();},200);
+	setTimeout(function(){introAnim();},500);
 	loadScreens();
 	
 	$("#menuButton").click(function(){

@@ -22,11 +22,12 @@
 
 .navMenu li{
 	font-size: 16pt;
+	color: white;
   text-align: center;
 	cursor: pointer;
 	display: inline-block;
 	min-width: 160px;
-	background-color: #d9853b;
+	background-color: #306082;
 	color: black;
 }
 
@@ -45,6 +46,7 @@
 }
 
 .navMenu li.active, .navMenu li:hover{
+	color: black;
 	background-color: #ececea;
 }
 
@@ -55,8 +57,9 @@
 
 #menuButton{
 	display: none;
+	color: white;
 	font-size: 35px;
-	background-color: #d9853b;
+	background-color: #306082;
 	cursor: pointer;
 }
 

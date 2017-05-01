@@ -146,16 +146,16 @@ body{
 	text-align: center;
 	width: 200px;
 	font-size: 18pt;
+	font-weight: bold;
 	cursor: pointer;
-	background-color: #d9853b;
+	background-color: #306082;
 	box-shadow: 5px 5px 5px black;
 	border: 2px solid black;
 }
 
 .button:hover{
 	background-color: #ececea;
-	border-color: white;
-	font-weight: bold;
+	border-color: black;
 }
 
 .nextButton{
@@ -177,7 +177,7 @@ body{
 .heading h3{
 	margin: 10px 0px 10px 10px;
 	color: white;
-	padding-left: 20px;
+	padding-left: 3px;
 }
 
 .darker{
