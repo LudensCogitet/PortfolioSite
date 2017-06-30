@@ -3,30 +3,70 @@
 							"heading": 			"John Hiner",
 							"subheading": 	"Full Stack Web Developer",
 							"image":				"../data/img/headShot.jpg",
-							"text":					"../data/txt/about.txt"
+							"text":					"../data/txt/about.html"
 							},
 							{"START":				"Projects"},
 							{"name":				"Database",
 							 "liveDemoLink":"../Projects/JCDB",
 							 "sourceCodeLink":"https://github.com/LudensCogitet/JCDB",
-							 "heading": 		"Projects",
-							 "subheading": 	"Custom Database",
+							 "heading": 		"Judicial Database",
+							 "subheading": 	"Made for a small private school",
 							 "image":				"../data/img/database.jpg",
-							 "text":				"../data/txt/about.txt"
+							 "text":				"../data/txt/database.html"
+							},
+							{"name":				"FlashSight",
+							 "liveDemoLink":"#",
+							 "sourceCodeLink":"https://github.com/LudensCogitet/Reading-Aid",
+							 "heading": 		"A Teaching Tool",
+							 "subheading": 	"To help young readers",
+							 "image":				"../data/img/FlashSight.jpg",
+							 "text":				"../data/txt/FlashSight.html"
 							},
 							{"name":				"This Site",
 							 "liveDemoLink":"#",
 							 "sourceCodeLink":"https://github.com/LudensCogitet/PortfolioSite",
-							 "heading": 		"Projects",
-							 "subheading": 	"This Very Portfolio",
+							 "heading": 		"My Portfolio",
+							 "subheading": 	"You're already looking at the demo!",
 							 "image":				"../data/img/portfolioSite.jpg",
-							 "text":				"../data/txt/portfolioSite.txt"
+							 "text":				"../data/txt/portfolioSite.html"
+							},
+							{"name":				"Game of Life",
+							 "liveDemoLink":"#",
+							 "sourceCodeLink":"https://github.com/LudensCogitet/PortfolioSite",
+							 "heading": 		"Conway's Game of Life",
+							 "subheading": 	"Fun with React",
+							 "image":				"../data/img/GameOfLife.jpg",
+							 "text":				"../data/txt/GameOfLife.html"
+						 	},
+							{"name":				"Roguelike",
+							 "liveDemoLink":"#",
+							 "sourceCodeLink":"https://github.com/LudensCogitet/PortfolioSite",
+							 "heading": 		"The Adventures of Bilbob",
+							 "subheading": 	"Game development with React",
+							 "image":				"../data/img/bilbob.jpg",
+							 "text":				"../data/txt/bilbob.html"
+						 	},
+							{"name":				"Timer",
+							 "liveDemoLink":"#",
+							 "sourceCodeLink":"https://github.com/LudensCogitet/PortfolioSite",
+							 "heading": 		"A Pomodoro Clock",
+							 "subheading": 	"With some fancy HTML5 canvas stuff",
+							 "image":				"../data/img/pomodoro.jpg",
+							 "text":				"../data/txt/pomodoro.html"
+						 	},
+							{"name":				"Tic-Tac-Toe",
+							 "liveDemoLink":"#",
+							 "sourceCodeLink":"https://github.com/LudensCogitet/PortfolioSite",
+							 "heading": 		"A Tic-Tac-Toe Game",
+							 "subheading": 	"With a sassy computer opponent",
+							 "image":				"../data/img/ticTacToe.jpg",
+							 "text":				"../data/txt/ticTacToe.html"
 							},
 							{"END":					"Projects"},
 							{"name":				"Contact",
 							 "heading": 		"Contact",
 							 "subheading": 	"Let's talk!",
 							 "image":				"../data/img/email-hi.png",
-							 "text":				"../data/txt/contact.txt"
+							 "text":				"../data/txt/contact.html"
 							}]
 }
