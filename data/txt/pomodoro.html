@@ -1,0 +1,18 @@
+<p>
+  This is a simple Pomodoro timer used to measure work and rest periods,
+  spiced up a bit with some HTML5 canvas animation. Since entering a 'flow' state
+  can be so important to effective work, I thought it might help to remove as many
+  left-brain activating distractions as possible (meaning numbers and other symbols)
+  while still giving the user some notion of how much time had passed.
+</p>
+<p>
+  The arc drawn of each circle is directly proportional to the portion that has passed
+  of the interval in measures. The outermost circle is one second, the middle circle is
+  one minute, and the innermost circle is one of the two periods set by the user.
+</p>
+<p>
+  I also wanted this timer to be accurate, especially while running in a minimized browser window. So,
+  rather than using something like setTimeout or setInterval, I regularly grab a current timestamp and compare
+  it to a future timestamp. This way, even when the browser is using fewer resources to update the page, the timer catches
+  up as soon as it is given a few cycles.
+</p>
