@@ -18,7 +18,7 @@
 															"</span>".
 															"<span class='arrow down' style='display: none;'>".
 																"<img src='data/img/downArrow.png'>".
-															"</span><ul class='navMenu submenu'>";
+															"</span><ul class='navMenu submenu' style='z-index: ".(string)(1000-$i)."'>";
 			}
 			else if(array_key_exists("END",$screens[$i])){
 				$returnObj["menu"] .= "</ul></li>";
@@ -85,17 +85,21 @@
 												$newPrevButton.
 												"<div class='content light'>".
 													"<div class='heading'>".
-														"<div style='display: inline-block; float:right; margin: 0;'>".
-															$sourceCodeLink.
-															$liveDemoLink.
-														"</div>".
-														"<h1>".$screens[$i]->heading."</h1>".
+														"<div style='display: flex; flex-direction: row; justify-content: space-between; align-items: center;'>".
+																"<div style='flex-grow: 3;'>".
+																	"<h1>".$screens[$i]->heading."</h1>".
+																"</div>".
+																"<div style=' flex-grow: 1; margin: 0;'>".
+																	$sourceCodeLink.
+																	$liveDemoLink.
+																"</div>".
+															"</div>".
 														"<h3 class='darker'>".$screens[$i]->subheading."</h3>".
 													"</div>".
 													"<div class='text'>".
 														"<img class='pic' src='".$screens[$i]->image."'>".
 														$screens[$i]->text.
-														"<div style='clear: both;'></div>".
+														//"<div style='clear: both;'></div>".
 													"</div>".
 												"</div>".
 												$newNextButton.
